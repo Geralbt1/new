@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Расписание занятий</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Расписание занятий</h1>
+        <label for="groupSelect">Выберите группу:</label>
+        <select id="groupSelect">
+            <option value="">--Выберите группу--</option>
+            <option value="group1">Группа 1</option>
+            <option value="group2">Группа 2</option>
+            <option value="group3">Группа 3</option>
+        </select>
+        <table id="scheduleTable">
+            <thead>
+                <tr>
+                    <th>День недели</th>
+                    <th>Время</th>
+                    <th>Предмет</th>
+                    <th>Преподаватель</th>
+                    <th>Аудитория</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Данные будут добавлены здесь динамически -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
